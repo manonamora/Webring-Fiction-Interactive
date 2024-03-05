@@ -2,13 +2,21 @@
 ---
 <!DOCTYPE html>
 <html lang=en>
-<title>{{page.title}}</title>
+<head>
 <meta charset=utf-8>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{page.title}}</title>
 <link rel=stylesheet href={{'main.css'|relative_url}}>
+<link rel="icon" type="image/jpeg" href="/assets/favicon.jpg">
+</head>
+
+<body>
 <main>
 {{content}}
 </main>
+
 <footer><nav>
-<a href={{'/'|relative_url}}>Index</a><br>
+<a href={{'/'|relative_url}}>Main Page</a><br>
 <a href={{site.github_repo_url}}>View on GitHub</a>
 </nav></footer>
+</body>
