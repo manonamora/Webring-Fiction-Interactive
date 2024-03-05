@@ -1,19 +1,34 @@
 ---
-title: Neo-Interactives Webring
+title: Webring Fiction Interactive
 layout: html
 ---
 <div id="container">
-<h2>The Neo-Interactives Webring</h2>
+<h1>Webring Fiction Interactive</h1>
+<h3>L'imagination, le meilleur des moteurs de jeu !</h3>
+<p>Ceci est une <a href=https://fr.wikipedia.org/wiki/Webring>webring</a> listant les membres de la communauté francophone de fiction interactive. Vous trouverez ici une liste d'auteurs et de membres de la communauté.</p>
 
-<p>This is a <a href=https://en.wikipedia.org/wiki/Webring>webring</a> for interactive fiction creators and fans.</p>
+<p>Avides de Fiction Interactive ? <a href="{{'/join'|relative_url}}">Rejoignez-nous</a> !</p>
 
-<p><a href="{{'/join'|relative_url}}">How to join</a> - <a href={{site.github_repo_url}}/>GitHub</a> - <a href="https://mincerafter42.github.io/tutorial/webring/">Original concept</a></p>
 
-<h2 id=members>Members ({{site.data.members.size}})</h2>
+<p><a href="https://www.fiction-interactive.fr/">Fiction-Interactive.FR</a></p>
+
+
+<h2 id=members>Auteurs de FI ({{site.data.authors.size}})</h2>
+<div id="members_list">
+    <ul>
+    {% for member in site.data.authors %}
+    <li><a href="{{authors.url | xml_escape}}">{{member.name | xml_escape | newline_to_br}}</a>{% endfor %}
+    </ul>
+</div>
+
+<h2 id=members>Membres ({{site.data.members.size}})</h2>
 <div id="members_list">
     <ul>
     {% for member in site.data.members %}
     <li><a href="{{member.url | xml_escape}}">{{member.name | xml_escape | newline_to_br}}</a>{% endfor %}
     </ul>
 </div>
+
+<p><a href="{{'/join'|relative_url}}">Rejoindre la Webring</a> - <a href={{site.github_repo_url}}/>GitHub Repository</a> - <a href="https://mincerafter42.github.io/tutorial/webring/">Concept Originel</a></p>
+
 </div>
