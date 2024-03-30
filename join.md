@@ -5,9 +5,11 @@ layout: html
 Vous être un(e) auteur(rice) francophone de Fiction Interactive ou un(e) grand(e) joueur(euse) de FI avec une présence sur le web ? Un(e) streamer(euse) sur Twitch ou un(e) essayiste ? 
 Aimeriez-vous faire partager la FI à un plus grand public et être liés à d'autres membres de la communauté ?
 
+<center>
 ## Rejoignez la Webring !
 
 Seulement deux étapes simples !
+</center>
 
 ### Ajoutez-vous à la liste de membres
 
@@ -55,5 +57,5 @@ Example 1:
 <!-- Ce serait cool si on pouvait avoir des boutons pour la page.-->
 
 <footer><nav>
-<a href={{'/'|relative_url}}>Accueil</a><br>
+<a href='/'>Accueil</a><br>
 </nav></footer>
