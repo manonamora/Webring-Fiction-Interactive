@@ -38,10 +38,6 @@ main > p:first-child {
   margin-top: 0;
 }
 
-main h2 {
-  text-indent: 2em;
-}
-
 main h3 {
   text-indent: 4em;
   font-style: italic;
