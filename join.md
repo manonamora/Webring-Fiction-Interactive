@@ -1,21 +1,21 @@
 ---
-title: Rejoindre la Webring
+title: Rejoindre le Webring
 layout: html
 ---
 Vous être un(e) auteur(rice) francophone de Fiction Interactive ou un(e) grand(e) joueur(euse) de FI avec une présence sur le web ? Un(e) streamer(euse) sur Twitch ou un(e) essayiste ? 
 Aimeriez-vous faire partager la FI à un plus grand public et être liés à d'autres membres de la communauté ?
 
 <center>
-## Rejoignez la Webring !
+## Rejoignez le Webring !
 
 Seulement deux étapes simples !
 </center>
 
 ### Ajoutez-vous à la liste de membres
 
-Si vous voulez être inclu-e dans cette webring, nous avons besoin des informations suivantes :
+Si vous voulez être inclu-e dans cet webring, nous avons besoin des informations suivantes :
 
-- un <b>slug</b> unique : un mot descriptif pour vous identifiez dans la webring
+- un <b>slug</b> unique : un mot descriptif pour vous identifiez dans le webring
 - votre <b>page web</b> : votre site perso ou page itch.io, n'importe où vous parlez de FI
 - le <b>nom</b> de votre page web
 - (optionel) si vous être un-e auteur-rice de FI
@@ -34,7 +34,7 @@ Un administrateur vérifiera les informations avant de vous ajoutez sur la liste
 
 ### Ajoutez le Widget sur votre page
 
-Dès que votre lien est actif sur la liste de membres, vous pouvez ajouter le widget nécessaire pour faire marcher la webring sur la page web que vous nous avez communiquez.
+Dès que votre lien est actif sur la liste de membres, vous pouvez ajouter le widget nécessaire pour faire marcher le webring sur la page web que vous nous avez communiquée.
 Le widget contient trois liens: celui rendant sur le site de la personne avant vous sur la liste, celui pour la personne après vous, et ce site.
 
 - **{{'/VOTRE-SLUG/next'|absolute_url}}** (suivant)
@@ -43,9 +43,9 @@ Le widget contient trois liens: celui rendant sur le site de la personne avant v
 
 Changez <b>VOTRE-SLUG</b> par le slug vous correspondant.
 
-#### Examples de widgets
+#### Exemples de widgets
 
-Example 1:
+Exemple 1:
 
 ```html
     <div id="webring" style="border-style: double; border-width: 2px; padding: 0.5em; max-width: 400px; text-align: center;">
