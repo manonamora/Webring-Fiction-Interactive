@@ -3,19 +3,20 @@
 <!DOCTYPE html>
 <html lang=en>
 <head>
-<meta charset=utf-8>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{page.title}}</title>
-<link rel=stylesheet href={{'main.css'|relative_url}}>
-<link rel="icon" type="image/jpeg" href="/assets/favicon.jpg">
+  <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{page.title}}</title>
+  <link rel=stylesheet href={{'main.css'|relative_url}}>
+  <link rel="icon" type="image/jpeg" href="/assets/favicon.jpg">
 </head>
 
 <body>
-<main>
-{{content}}
-</main>
-
-<footer><nav>
-<a href={{'/'|relative_url}}>Accueil</a><br>
-</nav></footer>
+  <div id="title">
+    <h1>Fiction Interactive Webring</h1>
+    <h3>L'imagination, le meilleur des moteurs de jeu !</h3>
+  </div>
+  <main>
+    {{content}}
+  </main>
 </body>
+</html>
