@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body {
-    background-color: rgb(3, 82, 3);
+    background-color: rgb(25, 24, 20);
     color: antiquewhite;
     max-width: 960px;
     margin: auto;
@@ -10,10 +10,50 @@ body {
 
 #title {
     background: url("/assets/header.jpg");
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    padding: 0.1em;
+    text-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black;
 }
 #title h1 {
     font-family: "Pacifico", cursive;
+    margin-bottom: 0em;
 }
+#title h3 {
+  margin-top: 0;
+}
+
 a {
     color: red;
+}
+
+
+
+main {
+  padding: 1em;
+}
+
+main > p:first-child {
+  margin-top: 0;
+}
+
+main h2 {
+  text-indent: 2em;
+}
+
+main h3 {
+  text-indent: 4em;
+  font-style: italic;
+  margin-top: 3em;
+}
+main h4 {
+  text-indent: 6em;
+}
+
+main h3::before, main h4::before, main h5::before {
+  content\ \"➳\": ;
+  content: "➳\00a0  ";
+  font-style: initial;
+  font-weight: initial;
 }
