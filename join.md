@@ -34,7 +34,7 @@ Un administrateur vérifiera les informations avant de vous ajoutez sur la liste
 
 ### Ajoutez le Widget sur votre page
 
-Dès que votre lien est actif sur la liste de membres, vous pouvez ajouter le widget nécessaire pour faire macher la webring sur la page web que vous nous avez communiquez.
+Dès que votre lien est actif sur la liste de membres, vous pouvez ajouter le widget nécessaire pour faire marcher la webring sur la page web que vous nous avez communiquez.
 Le widget contient trois liens: celui rendant sur le site de la personne avant vous sur la liste, celui pour la personne après vous, et ce site.
 
 - **{{'/VOTRE-SLUG/next'|absolute_url}}** (suivant)
