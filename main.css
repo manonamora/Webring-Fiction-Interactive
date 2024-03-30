@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 body {
     background-color: rgb(3, 82, 3);
     color: antiquewhite;
+    max-width: 960px;
+    margin: auto;
+    padding: 1em;
 }
 
+#title {
+    background: url("/assets/header.jpg");
+}
+#title h1 {
+    font-family: "Pacifico", cursive;
+}
 a {
     color: red;
 }
