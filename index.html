@@ -8,15 +8,13 @@ layout: html
     <!-- Bon, si j'arrive pas à faire marcher la liste de auteurs je peux faire une addition à côté du nom pour les auteurs et on a une seule liste. -->
  
 <p>Avides de Fiction Interactive‎ ? Retrouvez notre communauté sur <a href="https://www.fiction-interactive.fr/">Fiction-Interactive.FR</a></p>
-
-<h2 id=members>Auteurs de FI ({{site.data.authors.size}})</h2>
-<div id="members_list">
-    <ul>
-    {% for member in site.data.authors %}
-        <li><a href="{{member.url | xml_escape}}">{{member.name | xml_escape | newline_to_br}}</a>
-    {% endfor %}
-    </ul>
-</div>
+<p>Où trouver des Fictions Interactive ?
+<ul>
+    <li><a href="https://ifdb.org/search?searchfor=language%3Afr">Interactive Fiction Database</a></li>
+    <li><a href="https://itch.io/games/lang-fr/tag-interactive-fiction">Itch.io</a></li>
+    <li><a href="https://www.fiction-interactive.fr/category/fictions-interactives/">Fiction-Interactive.FR</a></li>
+</ul>
+</p>
 
 <h2 id=members>Tous les Membres ({{site.data.members.size}})</h2>
 <div id="members_list">
