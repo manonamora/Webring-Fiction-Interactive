@@ -5,17 +5,16 @@ layout: html
 Vous être un(e) auteur(rice) francophone de Fiction Interactive ou un(e) grand(e) joueur(euse) de FI avec une présence sur le web‎ ? Un(e) streamer(euse) sur Twitch ou un(e) essayiste‎ ? 
 Aimeriez-vous faire partager la FI à un plus grand public et être liés à d'autres membres de la communauté‎ ?
 
-<center>
-## Rejoignez le Webring‎ !
 
-Seulement deux étapes simples‎ !
-</center>
+## <center>Rejoignez le Webring‎ !</center>
+
+<center>Seulement deux étapes simples‎ !</center>
 
 ### Ajoutez-vous à la liste de membres
 
 Si vous voulez être inclu-e dans cet webring, nous avons besoin des informations suivantes‎ :
 
-- un <b>slug</b> unique‎ : un mot descriptif pour vous identifier dans le webring
+- un <b>slug</b> unique‎ : un mot descriptif pour vous identifier dans le webring (a-z en minuscules, 0-9 et "-")
 - votre <b>page web</b>‎ : votre site perso ou page itch.io, n'importe où vous parlez de FI
 - le <b>nom</b> de votre page web
 - (optionel) si vous être un(e) auteur(rice) de FI
