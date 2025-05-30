@@ -8,7 +8,7 @@ Une webring est....
 Relier les comptes FI
 
 ## Rejoindre la Webring
-PULL REQUEST to [members.csv](https://github.com/aucchen/neoint_webring/blob/main/_data/members.csv), adding a new row with the same format as the existing rows.
+PULL REQUEST to [members.csv](https://github.com/manonamora/Webring-Fiction-Interactive/blob/main/_data/members.csv), adding a new row with the same format as the existing rows.
 
 Ou envoyer un email à 
 your slug, website's name, and website's URL.
