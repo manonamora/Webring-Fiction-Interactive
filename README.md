@@ -21,9 +21,9 @@ Example widget to put on the bottom of your website:
 
 ```html
 <div id="webring">
-A member of the <a href="https://neoint-webring.netlify.app">Neo-Interactives Webring</a>
+A member of the <a href="https://fiction-interactive-wr.netlify.app">Neo-Interactives Webring</a>
 <br>
-<a href="https://neoint-webring.netlify.app/autumnchen/previous">Previous</a> - <a href="https://neoint-webring.netlify.app/autumnchen/next">Next</a>
+<a href="https://fiction-interactive-wr.netlify.app/autumnchen/previous">Previous</a> - <a href="https://fiction-interactive-wr.netlify.app/autumnchen/next">Next</a>
 </div>
 
 ```
